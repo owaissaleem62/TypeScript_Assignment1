@@ -1,0 +1,27 @@
+/* 
+Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
+• Make a array of your three favorite fruits and call it favorite_fruits.
+• Write five if statements. Each should check whether a certain kind of fruit is in your array. If the fruit is in your array, the if block should print a statement, such as You really like bananas!
+*/
+
+const favorite_fruits: string[] = ["apple", "banana", "mango"];
+
+if (favorite_fruits.includes("apple")) {
+  console.log("I like apples!");
+}
+
+if (favorite_fruits.includes("banana")) {
+  console.log("I enjoy bananas!");
+}
+
+if (favorite_fruits.includes("mango")) {
+  console.log("Mangoes are delicious!");
+}
+
+if (favorite_fruits.includes("grape")) {
+  console.log("Grapes are tasty!");
+}
+
+if (favorite_fruits.includes("Orange")) {
+  console.log("Oranges are one of my favorites!");
+}
